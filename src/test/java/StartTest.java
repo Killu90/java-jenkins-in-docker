@@ -6,5 +6,6 @@ class StartTest {
     void checkEven() {
 
         assertTrue(Start.checkEven(12));
+        assertFalse(Start.checkEven(11));
     }
 }
