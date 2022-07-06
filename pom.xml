@@ -13,6 +13,10 @@
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
+    <build>
+        <finalName>java-jenkins-docker</finalName>
+    </build>
+
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
